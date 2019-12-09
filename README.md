@@ -12,6 +12,11 @@ $ cd go-chat-server
 $ go run .
 ```
 
+## Connect via telnet client
+```bash
+$ telnet localhost 2323
+```
+
 ## Configuration
 
 By default, the server binds to port `2323` and writes log file into current working directory.
